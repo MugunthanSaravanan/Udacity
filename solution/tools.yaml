@@ -1,0 +1,24 @@
+sources:
+  betty:
+    type: cloud-sql-mysql
+    project: ${CLOUD_SQL_MYSQL_PROJECT}
+    region: ${CLOUD_SQL_MYSQL_REGION}
+    instance: ${CLOUD_SQL_MYSQL_INSTANCE}
+    database: ${CLOUD_SQL_MYSQL_DATABASE}
+    user: ${CLOUD_SQL_MYSQL_USER}
+    password: ${CLOUD_SQL_MYSQL_PASSWORD}
+
+tools:
+  get_product_by_name:
+    kind: mysql-sql
+    source: betty
+    description: Find product names and prices using a case-insensitive partial name match.
+    parameters:
+      - name: name
+        type: string
+        description: All or part of the product name to search for
+    statement:
+      SELECT id, product_name, price
+      FROM products
+      WHERE product_name COLLATE utf8mb4_general_ci LIKE CONCAT('%', ?, '%')
+      ORDER BY product_name;

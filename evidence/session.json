@@ -1,0 +1,1419 @@
+{
+  "id": "2d73a297-d8f4-4b4a-a0ef-131140b8aba4",
+  "appName": "solution",
+  "userId": "user",
+  "state": {
+    "__session_metadata__": {
+      "displayName": "Hello!"
+    }
+  },
+  "events": [
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Hello!"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-7eaf8349-cc9f-4917-bdd5-91c468fb1f04",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "2633e6c5-0117-4d6b-bec4-bb1a7fef18e4",
+      "timestamp": 1781836483.883081
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Hello there! Welcome to Betty's Bird Boutique! How can I help you with your feathered friends today?",
+            "thoughtSignature": "CtcBAY89a1-gLp1TTtUP1fjKXDtxatFor657fh6PtrlV4XDEGjKt2OlZ-f1nP_O-7pFuJpgjdsppgbUFzo0rf-zHk4oj_egmi_fJXrP6iuzvCSzFxezwKbyBfziHT7El7zTCxld6BUgV945umALlJU8RbWgN4F0GzeX2C_jKq0mTwUa9tUDtgIPGcQeOmjAhvanuL7Rtr-Lk_ZW-4cWtxs9-OWDI6VqE8juLdZ7EtnwB4_EYmFY0tQtNu-zdaiblMCd7ERWeeAJXO5jQ1rl1Pti34q9X6dB9Y74="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 22,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 22
+          }
+        ],
+        "promptTokenCount": 964,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 964
+          }
+        ],
+        "thoughtsTokenCount": 43,
+        "totalTokenCount": 1029,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.41733000495217065,
+      "invocationId": "e-7eaf8349-cc9f-4917-bdd5-91c468fb1f04",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "e9213437-604a-4fbc-8245-15d109ce5516",
+      "timestamp": 1781836483.891242
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "I have a question, is the store open on Sundays?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-4bf135ef-9616-4216-8193-d90bcf3d71a0",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "ac0a94b1-64fc-4649-92ed-c655570298ed",
+      "timestamp": 1781836492.9133482
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-a2dc4bd8-5475-46c4-8b82-988da4dc45ba",
+              "args": {
+                "search_query": "store hours on Sundays"
+              },
+              "name": "datastore_search_tool"
+            },
+            "thoughtSignature": "Cp0CAY89a1-JdQcNiEkOIcHe20MgpTgf0pzzBafgQZPfD50USyGiiCM2S0ESbmryej2GMGI7WL3nHtkE-OEENnNbHm4PUEPvyUx7IRSVQxp-izanpd2jsliVPszogmv46NwXtjGHEACMQvo5HrlSwfiiCZc3jGAZ_tyP175K6rMHxnpl6pgXXKgio63f47rwuEgAO664nNr6sG2odcLs_JF1sDLs26p7JRyNieC2_ljd36-u8hAmmCOJoGi8ycoaRaROkJt_QqhdRAXpn57xDlu2gKP_2Ydrh6UNb_-Zc0lhJeiBEeRdt3posV8eSrOw_romHvwte5odxAV1jTvsEaZCjSYRRsUlgOKHQKOOCmbiw1BB_NKOTE9aPR3BDkda"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 13,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 13
+          }
+        ],
+        "promptTokenCount": 1041,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1041
+          }
+        ],
+        "thoughtsTokenCount": 59,
+        "totalTokenCount": 1113,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.777316166804387,
+      "invocationId": "e-4bf135ef-9616-4216-8193-d90bcf3d71a0",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "73e355b5-171c-487b-ba2b-f927bb097361",
+      "timestamp": 1781836492.920636
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-a2dc4bd8-5475-46c4-8b82-988da4dc45ba",
+              "name": "datastore_search_tool",
+              "response": {
+                "result": [
+                  "Sunday: noon - 5pm\nMonday: Closed\nTuesday: 9am - 5pm\nWednesday: 8am - 8pm\nThursday: 9am - 5pm\nFriday: 9am - 3pm\nSaturday: 9am - 8pm"
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-4bf135ef-9616-4216-8193-d90bcf3d71a0",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "7e55edb6-4367-4e0a-81ed-6fbe4fded0bd",
+      "timestamp": 1781836494.707808
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Yes, we are open on Sundays from noon to 5 PM! We'd love to see you then.",
+            "thoughtSignature": "CpUCAY89a18UneqiaIdJl671_jMcPEarncpT7CWJMiLu13z6ON4BujXQy_ya6-OGfv-Hh-xLHhm6ukpb9lEI9S6S6-wD9tp9SIal4rxjj0QocotguemyLFr0YiUwuFDPgBKSAvIQBinuzaegVAW5jr1KKIC8s9OnN0sUXb5--P52AQaDFc7y5fGXgp3SvYRIOHV-mfhFNjpL-fY9xSmUHUPT_0dGF0j4sygQLksX_lpS5EQe09bWlOuU763U0xRu17GWherSIvUqG2Rjt14JZH1I39CkrAU3uNbY3yeyBJU07fbCOM6znhibwzeoES_ahSNB_HmLwqLb7zrNgip1AGixpIjersSgyz250c07XCpuRRsj_t95hA=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 23,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 23
+          }
+        ],
+        "promptTokenCount": 1181,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1181
+          }
+        ],
+        "thoughtsTokenCount": 63,
+        "totalTokenCount": 1267,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.3961915969848633,
+      "invocationId": "e-4bf135ef-9616-4216-8193-d90bcf3d71a0",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "48c88fec-047a-410c-a3fe-cdbb6fb834a6",
+      "timestamp": 1781836494.721668
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "And what are the store hours today?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-e25331f8-fc03-4d52-9c9d-be79dd3419c9",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "70e349a0-27ae-48bc-a03a-0bc37fbbcfe5",
+      "timestamp": 1781836504.88004
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-56dd840b-69d7-40b5-8481-7083b75092aa",
+              "args": {},
+              "name": "get_current_day_of_the_week"
+            },
+            "thoughtSignature": "Cr8CAY89a191k5-Rlw55s2aE3zqFNmyWxz2hFw__4Mkjfr38MyWSpx3XEmItqtETjyfQqGOMm0RnLIG7j2KL5SJj2w-UjKFVRLzSz-pyMEUVo_p7pOMrWOnFCukGf2znFC10zoTgA2r99oz3wqOgmyPx0OFpBn8yaqO6hIHRhRLrZt7EpAEY-TLxP1kqzz_DJSJ-70h5SFHrX1IiPd9pG3aOcNDWzdsgpI9bZz27pHscup1XuXn9Epk0Xi0h7Q_7gRBeebRzKHVQqBSEmkAfl_vkczym-xU0qSAXLiOGB2e7TtPh0v6bJYF9IJNenlguL4mToSYEHltj5KCE7lhC713snKiZrNhIfwYFyqV2POnTYeAZqtlHVEO0VUCB9AgPOZNEpfs-7rw8VyRFWmZ5mUCqCr8XnR-MsdQY2_S-3tRYag=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 11,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "promptTokenCount": 1275,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1275
+          }
+        ],
+        "thoughtsTokenCount": 80,
+        "totalTokenCount": 1366,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -1.1532412442294033,
+      "invocationId": "e-e25331f8-fc03-4d52-9c9d-be79dd3419c9",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "1bbbdd6c-3460-46d2-807a-2509b65e8634",
+      "timestamp": 1781836504.887428
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-56dd840b-69d7-40b5-8481-7083b75092aa",
+              "name": "get_current_day_of_the_week",
+              "response": {
+                "result": "Thursday"
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-e25331f8-fc03-4d52-9c9d-be79dd3419c9",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "343d189a-21ce-47a3-a834-8189ff65dd7f",
+      "timestamp": 1781836513.822458
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-b0fafb9a-1aab-41f1-a111-593b821a0e99",
+              "args": {
+                "search_query": "store hours on Thursday"
+              },
+              "name": "datastore_search_tool"
+            },
+            "thoughtSignature": "Cv4BAY89a1_NB3Q4RWgWnh02K0xtQRBqmFv5hl4f3BDd4JLF-VH47Xif09zgN1cVpbfZ6IUQgXqx5Tgsv-DDl3StcXrvmcBPex8JfZ1pQLrMWDvP_qlfQ83ML9o9tM4jBsD4DJtqdwCu9HWCbFoG7nJOwt7UobhQw1tYw8ULXa6uODbS4nY1w-PGV3BlsKMQ3t2B1o5rBRQbA4d0pJPBhpjNQ3Q0gS11LwazIrwy5XlVr-JllsuhJ670EqelXTJWQRTZEnF6roqBtQk3hdmD_TUG9zwG0Qp0ugIkQ3C8cwVB-LJw5btXlAW2R1RqgX9R8vZIdxyNjGR2BP42UnnShcE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 13,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 13
+          }
+        ],
+        "promptTokenCount": 1379,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1379
+          }
+        ],
+        "thoughtsTokenCount": 59,
+        "totalTokenCount": 1451,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.894295545724722,
+      "invocationId": "e-e25331f8-fc03-4d52-9c9d-be79dd3419c9",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "c9e9f875-cdd3-4795-b029-95756505b0f3",
+      "timestamp": 1781836513.832777
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-b0fafb9a-1aab-41f1-a111-593b821a0e99",
+              "name": "datastore_search_tool",
+              "response": {
+                "result": [
+                  "Sunday: noon - 5pm\nMonday: Closed\nTuesday: 9am - 5pm\nWednesday: 8am - 8pm\nThursday: 9am - 5pm\nFriday: 9am - 3pm\nSaturday: 9am - 8pm"
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-e25331f8-fc03-4d52-9c9d-be79dd3419c9",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "c2b4b34b-3cdb-425a-8166-c8e113165bc6",
+      "timestamp": 1781836515.645501
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Today is Thursday, and Betty's Bird Boutique is open from 9 AM to 5 PM. We hope to see you soon!",
+            "thoughtSignature": "Cp0CAY89a18QJ2ZIUs2Y-SZfc9QtHIyQZ9dYc97mUCms6fauRQpGh5d5ZP7aVpHWVOQ11gGJd8uKOjRh6bFjisFarFo38KEIHLjQeKX0ZwfzCLB1HCQvvm05-zTh2x14w-dXzxSBL2erZ6iVcJSIMc3sWZFCy_FICqDMVIAlSU3Ph_0MK5IgUY7DymTLefmwmCFX3AH96nBWpJrq6_XoYKBtfY5gqoTHu5qwgUziuBxs8iVMUCSlxIH1iJr2GXIZ9GhQL9OXnINVDHtkLZP_236f6W68mmYl3jnnkK9pYoae5AKBeIBx5dsXocyEypu-ryZo9fb-SxcC_QdbJfj4xV0GivooxOhfV0F9Caz899uSGAjNTn0Luhk6cFLbI4Ko"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 28,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 28
+          }
+        ],
+        "promptTokenCount": 1519,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1519
+          }
+        ],
+        "thoughtsTokenCount": 62,
+        "totalTokenCount": 1609,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.6504530906677246,
+      "invocationId": "e-e25331f8-fc03-4d52-9c9d-be79dd3419c9",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "dc79aa3e-a167-4973-b1d7-a0a7b841eabd",
+      "timestamp": 1781836515.66122
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Who is Betty?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-028fff02-4289-417f-93a4-0eb80f45c548",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "1e11183f-0236-41c4-aecf-dcbffbfad02b",
+      "timestamp": 1781836526.172151
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-d2e87b16-3109-45b3-8ebf-e508b5aaa976",
+              "args": {
+                "search_query": "Who is Betty?"
+              },
+              "name": "datastore_search_tool"
+            },
+            "thoughtSignature": "CoUCAY89a19V1-utjBlU7tsJLAX0UA1v9KHeBThZrgU1rZPY3sNgtY1JerFSHQAXcrLuholDK7ej49qLt5BPaWAsautaRGGzBit5TtiSVU4uQSGdPSGvHyznq87qbLAAFCEeI_HwSETZv6NOQH_lf1CiDOKeCaMUTWFWbtn3PY3SpO2OZIXwzKTZPHAa4ZunFGhgcU3gWhkJeiix0hjbguVI_jtL7J_Cb66_P72R_HVX48IebhGeEYlX4k_YsnaPQVxcP4NdQPzKNF0qtbwQWWWhZhwFFEwFmtQvqcA-MNTOGvkKkOL1JrqI5nigAQZSErabO3M8xAJX8ZiGy7R6waJvIpOyNgyB"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 13,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 13
+          }
+        ],
+        "promptTokenCount": 1613,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1613
+          }
+        ],
+        "thoughtsTokenCount": 56,
+        "totalTokenCount": 1682,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -1.0694101040179913,
+      "invocationId": "e-028fff02-4289-417f-93a4-0eb80f45c548",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "a3f3161e-4ab6-44f7-a09f-c6d2c098cdda",
+      "timestamp": 1781836526.1802082
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-d2e87b16-3109-45b3-8ebf-e508b5aaa976",
+              "name": "datastore_search_tool",
+              "response": {
+                "result": [
+                  "Betty’s Bird Boutique started with the bird-brained vision of our founder - Betty Winger. In 1980,\nshe and her husband, Bob Winger, received a budgie as a wedding present. The tiny, feathered\nfriend, whom they named Pip, quickly stole their hearts and ignited an unexpected passion.\nBetty, a seasoned seamstress and lifelong animal lover, found herself frustrated by the lack of\nquality, fun accessories for Pip. The toys were dull, the perches uninspired, and the cages were,\nwell, just cages. Driven by a desire to provide Pip with a stimulating and comfortable life, she\nbegan to design and sew her own custom bird items. What started as a hobby to entertain her\nbeloved pet soon evolved into something more.\nWord of Betty’s creations spread like wildfire throughout her local bird club. Other bird\nenthusiasts were captivated by the vibrant, handmade rope perches, the durable, chew-safe\ntoys, and the cozy, fleece-lined tents she created. Encouraged by the demand and the support\nof her community, Betty started selling her items at local craft fairs. The positive feedback was\noverwhelming, with customers praising the quality and creativity of her products.\nBy 1985, the hobby had officially outgrown the garage. With a small loan and Bob’s\nencouragement, Betty’s Bird Boutique opened its doors. The store was an instant success,\nbecoming a haven for bird lovers seeking high-quality, unique products for their feathered\ncompanions. Over the years, Betty and Bob have shared their store and their passion with bird\nbrethren worldwide, expanding their offerings to include many other essentials for birds and\ntheir human companions, with many products sourced from local suppliers or individual\ncraftspeople.\nIn 2025, after 45 years, Betty and Bob retired to spend time with the latest generation of their\nflock. We continue to honor Betty’s original vision: to bring a little extra joy and comfort to birds\neverywhere.",
+                  "Meet Our Flock!\n\nJames - Owner\n\nJames purchased Betty’s Bird Boutique in 2025 after a long career in finance. He’ll be the first to\nadmit that he didn’t know the first thing about birds when he took over the store. In fact, he was\nso clueless that he once tried to give a cockatoo a carrot stick with ranch dressing on it. Despite\nhis learning curve, his love for the store and its mission is as strong as his desire to provide the\nbest for his new friends. James has dedicated himself to learning everything he can about avian\ncare and has been known to spend hours watching documentaries and reading books about\nbird behavior. He now owns his own feathery friend, a charming green-cheeked conure named\nSheldon.\n\nHe's currently in the process of building an extensive bird library at home, much to the\namusement of his family. He’s also trying to perfect his whistle to be able to communicate with\nSheldon, though so far he’s only managed to teach him to make the sound of a ringing phone.\nMaria - Store Manager\nMaria has been with Betty’s Bird Boutique for over 15 years, starting as a part-time sales\nassociate in high school. Her passion for birds is infectious, and she has a knack for helping\ncustomers find the perfect toy or food for their companions. Maria is a proud parront to a flock of\nher own, including two boisterous African grey parrots named Apollo and Artemis, and a shy\nQuaker parrot named Olive. She’s an expert in bird nutrition and loves to share her knowledge\nof foraging and creating enriching environments.\nMaria’s favorite bird fact is that hummingbirds can fly backward. She also has a talent for\nmimicking the specific calls of various bird species, which she uses to greet the store's regular\navian visitors.\n\nDavid - Head of Inventory\nDavid, a lifelong bird lover, joined the team five years ago after volunteering at a local bird\nsanctuary. His expertise in identifying different bird species by their calls is legendary. He can\noften be found in the back room, humming along to the songs of the store’s various occupants.\nDavid owns a beautiful sun conure named Mango, who is known for his mischievous personality\nand his love of bell peppers.\nA fun fact about David is that he once successfully taught Mango to say \"I am Groot,\" and he\noften jokes that Mango has a better grasp of the line than he does.\nChloe - Avian Specialist",
+                  "Chloe is the newest member of the team, having recently graduated with a degree in\nornithology. Her deep understanding of bird behavior and health has made her an invaluable\nresource for both staff and customers. Chloe is passionate about avian enrichment and loves\nhelping customers design stimulating play areas for their birds. She owns a stunning cockatiel\nnamed Pip, who is a master of the wolf whistle.\nChloe's favorite bird-related fun fact is that the fastest bird in the world is the peregrine falcon,\nwhich can reach speeds of over 200 miles per hour during its hunting dive.\n\nLeo - The Store Mascot\n\nLeo, a Moluccan cockatoo, is the unofficial head of customer relations. He was adopted by Betty\nWinger herself after his previous owners could no longer care for him. Leo is now a permanent\nresident of Betty's Bird Boutique, where he has his very own elaborate cage and a special diet\nof gourmet seeds and fresh fruit. He loves to chat with customers, often greeting them with a\ncheerful \"Hello!\" and a head bob. He also loves to show off his dance moves whenever music is\nplaying.\nLeo has a particular fondness for new people and loves to lean forward and offer a wing to\nshake, a trick he learned from Betty Winger herself. His favorite treats are almonds, which he\nwill happily accept in exchange for a friendly \"Goodbye!\"\nSarah - Sales Associate\n\nSarah is a kind and patient sales associate who is known for her exceptional customer service.\nShe owns a pair of adorable zebra finches named Finn and Feathers. Sarah loves helping new\nbird owners feel confident in caring for their new pets. She has a talent for explaining complex\ntopics, like molting and feather health, in a way that’s easy to understand.\nA fun fact about Sarah is that she knows the sound of every single bird in her local park and can\nidentify them just by listening to their calls.\nBenjamin - Sales Associate\nBenjamin's enthusiasm for birds is contagious. He is the go-to person for all things toy-related.\nHe has a talent for creating unique, safe toys out of everyday materials. Benjamin owns a\ncharming budgie named Mochi and a sweet cockatiel named Sesame. He loves nothing more\nthan to help customers pick out the perfect new toy to keep their feathered friends entertained.\nHe once taught Mochi to say \"I love you,\" and he considers it one of his greatest\naccomplishments."
+                ]
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-028fff02-4289-417f-93a4-0eb80f45c548",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "fe8f15d9-de5e-4b77-a977-1b626ce7b5e4",
+      "timestamp": 1781836528.013931
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Betty Winger is the founder of Betty's Bird Boutique! She and her husband, Bob Winger, started the boutique in 1985 after her hobby of designing custom bird items for her budgie, Pip, grew into something more. She was a seasoned seamstress and lifelong animal lover who was frustrated by the lack of quality and fun accessories for birds. Her creations became very popular, leading her to open the store. She retired in 2025 after 45 years.",
+            "thoughtSignature": "Cp0CAY89a19HegukX9NLpHFjiOq8gh8DWaF9595P9G8rYEIqNaIiyHYTZ-NQ5Lx3qeFG6l3K7VnNXtPd9LzAW-dCUUnXJ-H6e2YoST3iCX0rB5iBLiOsRZZsDX5hu3xG9CVDqrPx_a5dGy7QipBRUp3ApQYa85dksjA82MrhbvW9J3j1Y9_yNao9IB0b306DFYww4GAJ3mU7CjRUgM5cD13ZwCUpuCyUvclgZz6C043lskBKCP3VuIw2Ip_-NadnX1qCU_WJSc_B_ZyBoe8ou967X-O2fUjV3bGm0NiBZnH_fQADIazKAOpkPbBrwz5Ys9trerGPX5FQoKvzgRuWrCA0LC-RDyeHMipf3REEaICztYf9nPT_UTTuqX5EbV7q"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 1622
+          }
+        ],
+        "cachedContentTokenCount": 1622,
+        "candidatesTokenCount": 102,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 102
+          }
+        ],
+        "promptTokenCount": 3173,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3173
+          }
+        ],
+        "thoughtsTokenCount": 54,
+        "totalTokenCount": 3329,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.3300468968410118,
+      "invocationId": "e-028fff02-4289-417f-93a4-0eb80f45c548",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "c945b3b9-a2d5-45be-bf6c-1de42536b375",
+      "timestamp": 1781836528.028339
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Is Pip the mascot of the store?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-4fe6686d-b903-4de1-bda7-c490b3f1e891",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "4955478b-5ec6-4471-8fa4-0c8ab2e31bda",
+      "timestamp": 1781836675.743472
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "That's a great question! Betty Winger, our founder, had a beloved budgie named Pip who inspired the creation of the boutique. However, the current unofficial mascot of Betty's Bird Boutique is Leo, a charming Moluccan cockatoo who loves to chat with customers and is the unofficial head of customer relations!",
+            "thoughtSignature": "CrIDAY89a1_q_ON7AnrDQwqALSQZKzojgmwOLI4Tws__TuRpyW9Ln8-QifaKWYdD_Aclvyx_D0v3IXdvIgXusSNF4kj13RRxSp_qnmAPsu6DkWF9iEHjfT2syRnpNSRZM3gC7poFAPJEtRshJA_CWyx6a7dJVSwar0Dy4zKVy6U-QueYAEW7GSxDvv6KrVd7P_ww5VeqskSKG3BuBBCLLTuxT1iNGBOGIP-XNjF_xUAjlAR5vNv7jr_botPXJRg1eM50AzIeBAvtl6iffExuipC8uUd_dxpImD9gDlgMRhgZU4uk18qbiOc3O4hA4xxLbcvNOw7koMmlimQr8WyfkBnjDiXASGjLjHCKgJei6u_8eLFcan2zrRgtujnZnZ935dMTqc03Ja7GOTzrInUEAXDITCIdBki9x2ESBYuEeQ4D9LDwqsirgzr0TjvvEjm0pgKiYChJf9lEzW9hcai6DP1L-I5NMI658xiMje0CxNlYZtjGo5rHgeA-k-vyT3oiMAvG8MYsvMzmDGA7GNpyg-1YndC_8KcuwZ-_TqwiqMHdZuOs8KlIok3AwcttTZ9qEmxQHzY="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 67,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 67
+          }
+        ],
+        "promptTokenCount": 3337,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3337
+          }
+        ],
+        "thoughtsTokenCount": 99,
+        "totalTokenCount": 3503,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.6646874840579816,
+      "invocationId": "e-4fe6686d-b903-4de1-bda7-c490b3f1e891",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "d572b330-8061-4efc-96ef-9d28091e73a4",
+      "timestamp": 1781836675.750491
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "What's the habitat of the Moluccan cockatoos?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-49a5350a-ea59-4871-90a0-bffbf84d8acb",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "cb6e791f-7c5d-480e-aa38-86c827427edc",
+      "timestamp": 1781885787.808981
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-003fcdbb-fc0e-45ce-9c9e-577e3f5d8b7b",
+              "args": {
+                "request": "habitat of Moluccan cockatoos"
+              },
+              "name": "search_with_grounding"
+            },
+            "thoughtSignature": "CpoCAY89a19hVuR01jvTVvpl9i3iq1bzrFJMv50dQvRegN8pm-y1Il8OwkZ8ElE0OQdi9qMwJ6srg_rBlRojjAEWz8J9JrcjcAEGzOianZsaM0e96cY1_ONeMajg1nMNoO6kmyTr6p6IYZu_IghlMqTOMwJ9NiUuqqkwCr7L3STwzNnsY07DZHnBSmvv5wOLMQaxzUzlu8v0tHxZtT1jD3UiW-UJ_rqupLvJs9Btv7saBodJ1inQpD4nu0x2xtypQRPObW01TLyfeK1kO_-I-yK1NAPxdfGzMZxDLW-lmtcJh9iY4s-icpcU4KhevcoHMhODl4Ui3stDm3SrIcVWvDcS7jMvR0c7TajN2l2G1664klPdpDENZKEWlge_"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 15,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 15
+          }
+        ],
+        "promptTokenCount": 3517,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3517
+          }
+        ],
+        "thoughtsTokenCount": 60,
+        "totalTokenCount": 3592,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.19174362818400065,
+      "invocationId": "e-49a5350a-ea59-4871-90a0-bffbf84d8acb",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "f462914d-8539-4b35-8b7d-ba25f7751446",
+      "timestamp": 1781885787.815715
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-003fcdbb-fc0e-45ce-9c9e-577e3f5d8b7b",
+              "name": "search_with_grounding",
+              "response": {
+                "result": "Moluccan cockatoos, also known as Salmon-crested cockatoos, are endemic to a specific region in eastern Indonesia. Their natural habitat is primarily confined to Seram Island, the largest island in the Maluku province, and potentially some smaller surrounding islands. While they were previously found on satellite islands like Haruku, Saparua, and Nusa Laut, they are now considered extinct in those areas.\n\nThese birds prefer diverse lowland tropical forest environments, including lowland rainforests, mangrove swamps, and coastal forests. They are typically found in elevations below 1,000 meters (3,300 feet), with the highest population density observed in primary forests. They often inhabit mature canopy forests located along rivers.\n\nMoluccan cockatoos are largely resident birds, meaning they do not migrate, and remain in their native habitat year-round. This is attributed to their specialized habitat requirements and a consistent availability of food resources within their environment. In the wild, they typically live in small, loose flocks and are most active during the early morning and late afternoon."
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-49a5350a-ea59-4871-90a0-bffbf84d8acb",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "b9a2c567-84ee-42ef-9623-18f680cf77fd",
+      "timestamp": 1781885794.770475
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Oh, Moluccan cockatoos are truly fascinating birds! Their natural habitat is quite specific. Here's what I found about their habitat:\n\nMoluccan cockatoos, also known as Salmon-crested cockatoos, are endemic to a specific region in eastern Indonesia. Their natural habitat is primarily confined to Seram Island, the largest island in the Maluku province, and potentially some smaller surrounding islands. While they were previously found on satellite islands like Haruku, Saparua, and Nusa Laut, they are now considered extinct in those areas.\n\nThese birds prefer diverse lowland tropical forest environments, including lowland rainforests, mangrove swamps, and coastal forests. They are typically found in elevations below 1,000 meters (3,300 feet), with the highest population density observed in primary forests. They often inhabit mature canopy forests located along rivers.\n\nMoluccan cockatoos are largely resident birds, meaning they do not migrate, and remain in their native habitat year-round. This is attributed to their specialized habitat requirements and a consistent availability of food resources within their environment. In the wild, they typically live in small, loose flocks and are most active during the early morning and late afternoon.",
+            "thoughtSignature": "CrsCAY89a1-f-RgGHejaJbaJD3wX309oDKRXEtx_RuRPKZfWhEhksLTF8bbrJuyJsvAOCbCqFRe6PVqKencB1rlDXQliFtCFJl-X_nA9FJBSSIY1Lp92IZm8K4NqOCuEmVtysSMhV31kcqQPZHXPM0omL3blYSg2UX8Lyfb6u8-LxykYr4ovDJAOSD06-D2HAOFqFb9ESlvOr7D9CJDxzhTCj3u4N3iw2d_mEHmw-IZvm1RyBIMSa6b0qmL4Gh-EkrCt6EehocS6ovRSpijfkHcl1cC0zyhJrvJnQcPkGedRQCKRTHUEax1_axan24b7En4jiG_CDQ50IwUB5Bt5PH1G8kAR20ZXP1qFg0YNeV8D_363b6AtVGhqVS4aeYyzlIbN1KpoZA8FPUgHVwyjEJ4k9KMUhfROIE_xckcZ"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3316
+          }
+        ],
+        "cachedContentTokenCount": 3316,
+        "candidatesTokenCount": 250,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 250
+          }
+        ],
+        "promptTokenCount": 3818,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3818
+          }
+        ],
+        "thoughtsTokenCount": 63,
+        "totalTokenCount": 4131,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.08349009704589844,
+      "invocationId": "e-49a5350a-ea59-4871-90a0-bffbf84d8acb",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "5b252dc5-afb9-401a-aacb-d07f112dfdc9",
+      "timestamp": 1781885794.784572
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "What do they eat?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-07b6bcbc-aa2c-40c1-b393-728929022a1b",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "eb6f8301-e84b-4e12-8ec3-33a75b23c3cd",
+      "timestamp": 1781885839.219915
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-b20d48d7-dd01-402b-b774-25810a989885",
+              "args": {
+                "request": "What do Moluccan cockatoos eat?"
+              },
+              "name": "search_with_grounding"
+            },
+            "thoughtSignature": "CsoCAY89a1992LXHXjUZl83ecyVnaYutfiRKzC6PJs69nz9bCsjGZB2yq7Tzz1f8vgKmYi-gXCBjNr-8QJiVpLLSY7PCPt3y9osGLyF3pp0CY7S8jvnMTG8MHpPAFPxy3IRw4oBD6LrhQbmYivJgAWo3mS1UZ9lAnxzuQzwlIFh9W1sKFtGbEWWqUEDeRh5xB7p0kZH3EXaLUXfuciu7ZZ-CtPxrYdoqDNNR9kv9_4sCf9kPScT5ZfSuEr4npvDe6RMjWuvIucZKMUxBX4MP5psbJQamGI8AVuxj0qrJyDPqnBbzhOJIKw8vLWhiKKhIFViTghxY6ELcIObxtd290XZc6QaD_af1aOw1s1HvrOv4ohtSgb50eBtLOGYAHvIMXNgO_o0bjI9k8SZUU4CDJz3BoxY5NHjBQTCKBEO4DylbK87_TjuRcA_1jjnN"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "candidatesTokenCount": 17,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 17
+          }
+        ],
+        "promptTokenCount": 4136,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4136
+          }
+        ],
+        "thoughtsTokenCount": 70,
+        "totalTokenCount": 4223,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.28748167262357827,
+      "invocationId": "e-07b6bcbc-aa2c-40c1-b393-728929022a1b",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "a0fd813e-2bff-4dca-b2f3-fe9e4025ec39",
+      "timestamp": 1781885839.227776
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-b20d48d7-dd01-402b-b774-25810a989885",
+              "name": "search_with_grounding",
+              "response": {
+                "result": "Moluccan cockatoos, also known as Salmon-crested cockatoos, have a diverse diet both in the wild and in captivity, primarily consisting of seeds, nuts, fruits, and vegetables.\n\nIn their natural habitat, Moluccan cockatoos consume seeds, nuts, and various fruits. They are also known to eat coconuts from plantations and have been observed to include insects in their diet.\n\nFor pet Moluccan cockatoos, a balanced diet is crucial for their overall health. The core of their diet should be high-quality parrot pellet food, making up about 60-80% of their daily intake. Pellets are recommended over seed mixes because they offer complete nutrition and prevent birds from selectively eating only their favorite, often less nutritious, seeds.\n\nThe remaining 20-40% of their diet should consist of fresh fruits and vegetables.\n\n**Recommended Fruits include:**\n*   Papaya\n*   Apples\n*   Bananas\n*   Pears\n*   Cherries\n*   Oranges\nGenerally, Moluccan cockatoos are not picky about fruits, though avocado is toxic and must be avoided.\n\n**Suitable Vegetables include:**\n*   Leafy greens\n*   Peppers\n*   Carrots (including their tops)\n*   Broccoli\nDark green and orange vegetables are particularly nutritious. Vegetables should be offered raw or lightly steamed without oil, salt, or seasoning. Pale vegetables like iceberg lettuce provide little nutritional value and should be avoided.\n\n**Occasional treats and supplements can include:**\n*   **Nuts:** Almonds, cashews, walnuts, pistachios, and pine nuts.\n*   **Seeds:** While a small part of the diet, sunflower seeds can be given as treats, but sparingly due to their high fat content.\n*   **Cooked grains:** Plain, unsalted brown rice, quinoa, barley, and oatmeal.\n*   **Protein:** Small amounts of scrambled egg or chicken.\n*   **Calcium:** Cuttlebone or supplements like AVIMIX can introduce calcium into their diet.\n*   Organic, plain, and unsalted popcorn.\n\n**Foods to strictly avoid due to toxicity include:**\n*   Avocado\n*   Chocolate\n*   Caffeine\n*   Onions\n*   Alcohol\n\nFresh, clean water should always be available and refreshed daily. Incorporating foraging activities can provide mental stimulation for the bird."
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-07b6bcbc-aa2c-40c1-b393-728929022a1b",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "fc599c71-729e-4cf9-a40b-52211b8a129c",
+      "timestamp": 1781885850.7683232
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "That's an excellent question about the diet of Moluccan cockatoos! It's so important to know what these beautiful birds eat to keep them healthy. Here's a detailed breakdown of their diet:\n\nMoluccan cockatoos, also known as Salmon-crested cockatoos, have a diverse diet both in the wild and in captivity, primarily consisting of seeds, nuts, fruits, and vegetables.\n\nIn their natural habitat, Moluccan cockatoos consume seeds, nuts, and various fruits. They are also known to eat coconuts from plantations and have been observed to include insects in their diet.\n\nFor pet Moluccan cockatoos, a balanced diet is crucial for their overall health. The core of their diet should be high-quality parrot pellet food, making up about 60-80% of their daily intake. Pellets are recommended over seed mixes because they offer complete nutrition and prevent birds from selectively eating only their favorite, often less nutritious, seeds.\n\nThe remaining 20-40% of their diet should consist of fresh fruits and vegetables.\n\n**Recommended Fruits include:**\n*   Papaya\n*   Apples\n*   Bananas\n*   Pears\n*   Cherries\n*   Oranges\nGenerally, Moluccan cockatoos are not picky about fruits, though avocado is toxic and must be avoided.\n\n**Suitable Vegetables include:**\n*   Leafy greens\n*   Peppers\n*   Carrots (including their tops)\n*   Broccoli\nDark green and orange vegetables are particularly nutritious. Vegetables should be offered raw or lightly steamed without oil, salt, or seasoning. Pale vegetables like iceberg lettuce provide little nutritional value and should be avoided.\n\n**Occasional treats and supplements can include:**\n*   **Nuts:** Almonds, cashews, walnuts, pistachios, and pine nuts.\n*   **Seeds:** While a small part of the diet, sunflower seeds can be given as treats, but sparingly due to their high fat content.\n*   **Cooked grains:** Plain, unsalted brown rice, quinoa, barley, and oatmeal.\n*   **Protein:** Small amounts of scrambled egg or chicken.\n*   **Calcium:** Cuttlebone or supplements like AVIMIX can introduce calcium into their diet.\n*   Organic, plain, and unsalted popcorn.\n\n**Foods to strictly avoid due to toxicity include:**\n*   Avocado\n*   Chocolate\n*   Caffeine\n*   Onions\n*   Alcohol\n\nFresh, clean water should always be available and refreshed daily. Incorporating foraging activities can provide mental stimulation for the bird.",
+            "thoughtSignature": "CqADAY89a18YhIg58J0z42Wj5yQo2JchU4mrw_U7GQ2Dsa1yOdONmK1zg37SFT0__V2WfgqA7EpxcEyoOhJK0pAF-R5_sJFVTiFh9ZQ2BKn5EsY4cDWg9foyvlJ1C_QNPMGpCAQIZUxSQjWefMdkm4jmZTVR6rlR9B3klUu1ORPYpw5iGc_Bpdlo-L-8PwW4BMussTlk2Z4RPBLWNJxcZxYj0kHxUD37sLuukHttgMriV2dZW-Gmn_vSnl5ONCcrcmTYnvoEzblt6wMCiYWw3WnH7e1v9onbrA-MpUGNb4L6P-TZzpUtoXgyKuoTAaftXd13GyndCPhfsbYQ51XV_1IYD9ydeHEvG1dWDHzbnhq1rMvHMnaUt91Chm6rfYZVsXRPInweOYl1ULb6FxPrekbkdzL7NDomOFf1IhaMJvwU2V5P_dSqIYbFwr6iyDGQSrGlWjOkVa_b7gaExwF8wzRzVNWw_LVjGfdVzx4l9d7Ub-UZSxUnGh3lFnXvf0LLx1zGl38h5WEbTzaYAC-KQn1bQuKNdSFK4c6xNp_0myl5aaE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 3393
+          }
+        ],
+        "cachedContentTokenCount": 3393,
+        "candidatesTokenCount": 551,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 551
+          }
+        ],
+        "promptTokenCount": 4736,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4736
+          }
+        ],
+        "thoughtsTokenCount": 82,
+        "totalTokenCount": 5369,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.06547561617814911,
+      "invocationId": "e-07b6bcbc-aa2c-40c1-b393-728929022a1b",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "c4c4c46d-1185-46d6-a24b-d622d4ca88ff",
+      "timestamp": 1781885850.782783
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Can I buy bird treats and supplements at the store?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-c26f8080-f424-4cda-9bbc-4d718b7eb222",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "0c3be728-26dc-46e6-abb3-5e6856df8f8a",
+      "timestamp": 1781885916.2621791
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-9ffddf85-5e47-47c4-8c97-a8509afd052f",
+              "args": {},
+              "name": "get_all_products"
+            },
+            "thoughtSignature": "CrICAY89a1_oQLz3CO3lHNa-n34SNo-eTPXLymZOH2USsOPnU1k9rVr1UB5nKxlOfOPeXPIWcxJC-bCqVH2JLUfHBRK0pz3SA2jYi_Sr57Os3QP2C2ZqV3AVRX9aPRrivuZ-QDRCVutDJBZqngWQB-7ggLSYTmqvNfdCINQl4LTZbvUGmbYVgK4nsWIlEJf_arY-S9ewPjcV965-n42icjK6VgnaDxUKrHpRGp1o1dduZC8Kll-gz9ef7ZJ1Emit7sbhPRlB-balS4Zs4l0gOBw46gUU-D4F5EDG6FtPtezMiMibMHySa7fd4tiMwNMGqL9SCzSdBkgyCyMSs1OPZzZsqTUjWLoY3ZUkAaNs3tjmnftQQBvi-hCThpiAsrHR1PS9eK75nt8j39X_OZdxF2-QcRWW"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 4320
+          }
+        ],
+        "cachedContentTokenCount": 4320,
+        "candidatesTokenCount": 5,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5
+          }
+        ],
+        "promptTokenCount": 5380,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5380
+          }
+        ],
+        "thoughtsTokenCount": 156,
+        "totalTokenCount": 5541,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -8.693588256835938,
+      "invocationId": "e-c26f8080-f424-4cda-9bbc-4d718b7eb222",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "aca0eb48-c193-4932-bf54-d6a586a5e4a7",
+      "timestamp": 1781885916.270242
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-9ffddf85-5e47-47c4-8c97-a8509afd052f",
+              "name": "get_all_products",
+              "response": {
+                "result": "[{\"id\":1,\"product_name\":\"Bird Seed Mix\",\"price\":\"15.99\"},{\"id\":2,\"product_name\":\"Sunflower Seeds\",\"price\":\"22.50\"},{\"id\":3,\"product_name\":\"Suet Cakes\",\"price\":\"12.75\"},{\"id\":4,\"product_name\":\"Bird Feeder\",\"price\":\"25.00\"},{\"id\":5,\"product_name\":\"Bluebird House\",\"price\":\"35.50\"},{\"id\":6,\"product_name\":\"Bird Bath\",\"price\":\"75.99\"},{\"id\":7,\"product_name\":\"Cuttlebone\",\"price\":\"4.25\"},{\"id\":8,\"product_name\":\"Millet\",\"price\":\"8.00\"},{\"id\":9,\"product_name\":\"Parrot Pellets\",\"price\":\"28.99\"},{\"id\":10,\"product_name\":\"Finch \\u0026 Canary Food\",\"price\":\"10.50\"}]"
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-c26f8080-f424-4cda-9bbc-4d718b7eb222",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "90fa9080-dd71-4b31-a6de-a2a261bc1fc6",
+      "timestamp": 1781885919.8317661
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Yes, we certainly do! We offer a variety of items that can be used as treats and supplements for your birds. For example, we have:\n\n*   **Bird Seed Mix**\n*   **Sunflower Seeds**\n*   **Suet Cakes**\n*   **Cuttlebone** (an excellent source of calcium)\n*   **Millet**\n*   **Parrot Pellets**\n*   **Finch & Canary Food**\n\nWe'd be happy to help you find the perfect treats or supplements for your feathered friend!",
+            "thoughtSignature": "CqUFAY89a1-4UnrEyzyu8VMw2SZArO6wLPnES51tSg277PcM3Umq-DmNRtuKS4V9AsmZv4K9Zp77EL2Wj-3-KzepnQHvNK1OiY4maVo8tvA7XvsRAZoK4f5OKMQfJXSJtyeFmYJvwP03i8NOF_kLlgBYMpeSXhOLM9WmaMy7dMXV0Ov1DIeAfKbCZWMiwfnNaBdPvL03ieWdy6MGcxqgQXkXSDC-XTRl2myEOQfmEz-aT5oK-xW6wvO-uKJeuh0bcge5neq8rlIcQqw-94F7hLnCE6Y3Tv_Hyxkm8RJypt4iEE0DezhnPt3XmJca_zXILTndK0FS2CyiaD3pTQoFjQiDmKwVxnILoRy6QQ1mp-179ZeiJM0pqLlL567xKSTiBNBt2dUipggaYhAr3SQ0r9SWcdHT5b6EKH9VyBsl70yP9lS8pQpR72kLXosmki6x_aZlLQsT_WK57Hc3GzkMp9JJPLb6zAYWr8lhE2R-5xUFYbj4CCoMHFiwSXjB-0Gj3PKa10ljnL2FVptCuZTzZKZZrgWFM-X8DS2CAlBewxNXZREgYyaV0vigauc9UwJ3zq-FGxUGKF35XDIrHvau02TEVtBoVxL2O4-Pl9CeHWRt8MZP-uuqDkS0CX7fehY7uFcjA-cD-0jl_0zg7xPY6XMlFhaPUsVD-fUrz973YdBe5N3MdeTmO_uoiFoCYh4H2nFR1FL8-h39UMS7FUknz3HNfevzle49zOhrapoULp8RA-AFIJeP6zNQv4ckHXcM4bNymYfFFjb-ztbv369BvdCYgyZVJw8OEqOdLC4XI8YaDBIGqz4lS9AQLo12OO4c1qU43kWrI5oq1SEa6tjg5E-TSSmd6I6CRmhSQ17en8xkzTj8JcVC3krOStGKqb3-5Fd6b4x8WxA="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5186
+          }
+        ],
+        "cachedContentTokenCount": 5186,
+        "candidatesTokenCount": 114,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 114
+          }
+        ],
+        "promptTokenCount": 5660,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5660
+          }
+        ],
+        "thoughtsTokenCount": 154,
+        "totalTokenCount": 5928,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.5148031669750548,
+      "invocationId": "e-c26f8080-f424-4cda-9bbc-4d718b7eb222",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "fa59da7d-71a5-4f0f-ac68-7d590cf302de",
+      "timestamp": 1781885919.846514
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "What's the price of Bird Seed Mix?"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-3651b2ff-6aaf-4722-a21b-e95c6c51f74a",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "211d47fb-73a6-4781-bf18-dd9c8de73726",
+      "timestamp": 1781885944.444046
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "functionCall": {
+              "id": "adk-ea607eb8-10ef-4155-b6ad-7024e95f25d1",
+              "args": {
+                "name": "Bird Seed Mix"
+              },
+              "name": "get_product_by_name"
+            },
+            "thoughtSignature": "CqYBAY89a187O7PWUoDt0EQg_fMCEWsP6I9W8cBegU66Qk-vLY-A9Rodp9BKyjB3w_ys90qT7fnb1EJ1khZ0Bxvp8D1dkr2zZlx37yWq5pGvLFwKezy1O2KeDyBQGbyN52meOOTGAd9ymkKtd7691RNeAUQxBCgWaTbpsNpthRkSLyX392hJCTVx_5-AxkC9HewCNUuNy7Vj8eFUZ1YqMyX-yJgQW0PC4A=="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5214
+          }
+        ],
+        "cachedContentTokenCount": 5214,
+        "candidatesTokenCount": 11,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 11
+          }
+        ],
+        "promptTokenCount": 5938,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5938
+          }
+        ],
+        "thoughtsTokenCount": 36,
+        "totalTokenCount": 5985,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.7517714066938921,
+      "invocationId": "e-3651b2ff-6aaf-4722-a21b-e95c6c51f74a",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "longRunningToolIds": [],
+      "id": "f4acb29a-43db-4d89-9bd3-e611fcf763e7",
+      "timestamp": 1781885944.451256
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "functionResponse": {
+              "id": "adk-ea607eb8-10ef-4155-b6ad-7024e95f25d1",
+              "name": "get_product_by_name",
+              "response": {
+                "result": "{\"id\":1,\"product_name\":\"Bird Seed Mix\",\"price\":\"15.99\"}"
+              }
+            }
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-3651b2ff-6aaf-4722-a21b-e95c6c51f74a",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "65b0314b-a4d4-4c99-b7a0-c06065fb55e4",
+      "timestamp": 1781885945.83854
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "The Bird Seed Mix is priced at $15.99.",
+            "thoughtSignature": "CoUCAY89a1_-JDDkbSIRSYMEerE0G6HlafdKPa1jXtD3n8J2bgj3-brbFXwsj1Cecf-BPZSQbPYwrQvRmHdUxa1EN3XjLah6CrOPA1KUWxcABSGM4mrfBEKYb-yCgKPN4jzEDUh4L3fvc8NqXAzbZkLeAnk3tabSDenWU_NdV-ikBsGl1Wu7Kk_hugZY7B2Bai290R4-VNU3mNbX-IynrOyptSDNgRqGDtrE0Q4CsDSg01lPUFHSd9aU1PClFwqF6Rw1aM37zK9NNjkHfL6GsmX2qfnu-u_CkSKg8H6_9MhIjBZIJ1CAR4eInnWwtH0rv9WaEpR1jlNuluMdyXcJXVf7WzlCVoZS"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5196
+          }
+        ],
+        "cachedContentTokenCount": 5196,
+        "candidatesTokenCount": 14,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 14
+          }
+        ],
+        "promptTokenCount": 6014,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6014
+          }
+        ],
+        "thoughtsTokenCount": 57,
+        "totalTokenCount": 6085,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.8192911148071289,
+      "invocationId": "e-3651b2ff-6aaf-4722-a21b-e95c6c51f74a",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "c36d5533-0cd1-40a3-887d-09bfbc1b0fa5",
+      "timestamp": 1781885945.848854
+    },
+    {
+      "content": {
+        "parts": [
+          {
+            "text": "Cool. I'll stop by and do some birdy shopping later today"
+          }
+        ],
+        "role": "user"
+      },
+      "invocationId": "e-0ce681e8-81ee-44b9-bb01-503b007aac4f",
+      "author": "user",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": ""
+      },
+      "id": "b79cbdc4-b249-46e7-bf0d-d91bf5034b04",
+      "timestamp": 1781886008.29052
+    },
+    {
+      "modelVersion": "gemini-2.5-flash",
+      "content": {
+        "parts": [
+          {
+            "text": "Wonderful! We'll be delighted to see you. Just a reminder, we're open today until 5 PM. If you have any other questions before you come in, feel free to ask!",
+            "thoughtSignature": "CpcCAY89a19gGNU8hc_Sxh-DU0fX4pLyQyk1V8yLXC7wYAQ1qrGeJVOBqq8OFDYBj4ssN-OUGCHHwyHGu7TFAH2RmCH_oDeDfGZVtrAL3p2Q_0G7Lmhoa1jbDuXbRrGK20JuZqdB2-14NdGMV_5zRj2T4SetVV5ZDU1Aqo8Q73ZbwPX0xVm4dVYJj3tZKosNKeB8B_dcF0XahbrYz25wsGomWQLJTYbdrZMo6nkszeuF9C7nP1v3S3HN_LbeYqJ3PmuoAzWld3JZKUKEWof6jazTyAC4DQNWIZOZDcK-iIXxu5kd34R2caM5eHx0W7jol3CM_VzM7GCNkW_83jyevOxb_DHEg4EAMMjl6-dZA81zpCodUlpUu7N5"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "usageMetadata": {
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 5198
+          }
+        ],
+        "cachedContentTokenCount": 5198,
+        "candidatesTokenCount": 41,
+        "candidatesTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 41
+          }
+        ],
+        "promptTokenCount": 6100,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 6100
+          }
+        ],
+        "thoughtsTokenCount": 48,
+        "totalTokenCount": 6189,
+        "trafficType": "ON_DEMAND"
+      },
+      "avgLogprobs": -0.6588620441715892,
+      "invocationId": "e-0ce681e8-81ee-44b9-bb01-503b007aac4f",
+      "author": "bettys_bird_boutique_agent",
+      "actions": {
+        "stateDelta": {},
+        "artifactDelta": {},
+        "requestedAuthConfigs": {},
+        "requestedToolConfirmations": {}
+      },
+      "nodeInfo": {
+        "path": "bettys_bird_boutique_agent@1"
+      },
+      "id": "53902b58-af29-4034-a770-01954bee65ad",
+      "timestamp": 1781886008.297765
+    }
+  ],
+  "lastUpdateTime": 1781886008.297765
+}
